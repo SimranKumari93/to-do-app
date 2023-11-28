@@ -3,6 +3,7 @@ import './App.css';
 import Todolist from './components/Todolist';
 import ToggleMode from './components/ToggleMode';
 import DarkMode from './components/DarkMode';
+import About from './components/About';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
     <Todolist/>
   <ToggleMode/>
   <DarkMode/>
+  <About/>
     </>
   );
 }

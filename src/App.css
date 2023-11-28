@@ -1,23 +1,24 @@
 body , html {
   box-sizing: border-box;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: -apple-system,  BlinkMacSystemFont, sans-serif; 
 } 
 .app{
   text-align: center;
 }
 .container{
+
   background-color: rgb(7,2,71);
   justify-content: center;
-  width: auto;
-  margin-left: 20px;
+  width: 800px;
+  margin-left: 300px;
   margin-top: 4px;
   text-align: center;
   padding: 20px;
 }
 input[type=text], select{
-  width: 80%;
-  padding: 12px 20px;
-  margin: 30px 0;
+  width: 40%;
+  padding: 8px 16px;
+  margin: 30px 2px;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -25,29 +26,29 @@ input[type=text], select{
 }
 button{
   width: 15%;
-  margin: 4px;
+  margin: 6px;
   color: black;
-  padding: 14px 20px;
-  margin: 8px 0;
+  padding: 8px 16px;
+  margin: 8px 2px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   font-weight: bold;
 }
 button:hover{
-  background-color: rgb(0, 255, 4);
+  background-color: rgb(106, 98, 220)
 }
 .header{
   width: 100%;
-  padding: 12px 20px;
+  padding: 8px 16px;
   color: white;
-  font-size: 50px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-family: -apple-system,  BlinkMacSystemFont, sans-serif; 
 }
 .List-heading{
   color: rgb(10, 4,89);
-  font-size: 50px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  font-family: -apple-system,  BlinkMacSystemFont, sans-serif; 
   text-align: left;
   background-color: rgb(135, 130, 200);
 }
@@ -85,4 +86,27 @@ button:hover{
   padding: 1.6rem;
   background-color: var(--btn-bg-color);
   color: var(--btn-text-clr);
+}
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+th{
+  padding: 52px;
+}
+.table{
+  color: hsl(0, 0%, 80%);
+  align-items: center;
+  padding: 12px;
+  margin-left: 60px;
+}
+.plus-button {
+  width: 28px;
+  height: 28px;
+  background-color: rgb(118, 113, 187);
+  color: white;
+  font-size: 20px;
+  align-items: center;
+  border-radius: 8%;
 }

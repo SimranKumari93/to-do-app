@@ -11,10 +11,10 @@ function DarkMode() {
      }
      useEffect(() => {
         document.body.className = theme;
-     }, [])
+     })
   return (
     <>
-         <button className='btn' onClick={toggleTheme}>Toggle Mode On</button>
+         <button className='btn' onClick={toggleTheme}>Toggle Mode added</button>
     </>
   )
 }

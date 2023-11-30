@@ -98,19 +98,6 @@ function Todolist() {
           return <Task activity={activity.activity} removeActivity={removeActivity} removeAll={removeAll}
             id={activity.id} Handledit={Handledit} />
         })}
-
-        <table className='table w-full'>
-          <thead>
-            <tr>
-              <th>Task</th>
-              <th>DueDate</th>
-              <th>Status</th>
-              <th>Actions</th>
-            </tr>
-
-          </thead>
-        </table>
-
       </div>
 
     </>

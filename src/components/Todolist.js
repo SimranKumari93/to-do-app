@@ -48,7 +48,7 @@ function removeAll(){
         <>
        <p key={i}>
           <div className='listData'>{data}</div>
-          <button onClick={()=>removeActivity(i)}>Remove(-)</button>
+          <button onClick={()=>removeActivity(i)}>Remove</button>
           {listData.length>= 1 &&  <button onClick={removeAll}>Remove All</button>}
         </p>
         </>

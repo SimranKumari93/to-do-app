@@ -32,7 +32,7 @@ to-do-list/
 * App.js: Main component for the Todo app.
 * index.js: Entry point for rendering the React app.
                         #                Usage
-                           Running the App
+                          How to run the App
 Start the development server:
 npm start
 Open http://localhost:3000 in your browser to view the app.
